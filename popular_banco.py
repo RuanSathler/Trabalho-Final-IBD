@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',       
-    'password': '12345678',  # <--- COLOQUE SUA SENHA DO MYSQL AQUI
+    'password': '---',  # <--- COLOQUE SUA SENHA DO MYSQL AQUI
     'database': 'stream_db'
 }
 
@@ -209,4 +209,5 @@ def popular_banco():
     print("\n🎉 SUCESSO! O banco de dados foi populado com dados sintéticos.")
 
 if __name__ == "__main__":
+
     popular_banco()
